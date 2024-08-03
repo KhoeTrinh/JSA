@@ -1,13 +1,15 @@
-<li class="d-flex justify-content-between">
-    <span class="task-text">Learn HTML</span>
-    <input
-        type="text"
-        class="form-control edit-input"
-        style="display: none"
-        value="Lear HTML"
-    />
-    <div class="btn-group">
-        <button class="btn btn-danger btn-sm delete-btn">✕</button>
-        <button class="btn btn-primary btn-sm edit-btn">✎</button>
-    </div>
-</li>
+`
+        <span class="task-text">${todoInput}</span>
+        <input
+            type="text"
+            class="form-control edit-input"
+            style="display: none"
+            value="Lear HTML"
+        />
+        <div class="btn-group">
+            <button class="btn btn-danger btn-sm delete-btn">✕</button>
+            <button class="btn btn-primary btn-sm edit-btn">✎</button>
+            <button class="btn btn-success btn-sm edit-btn">👍</button>
+        </div>`
+
+        "list-group-item d-flex justify-content-between align-items-center"
